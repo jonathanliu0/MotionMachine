@@ -1,0 +1,17 @@
+
+class IDLE:
+    pass
+
+class OFF:
+    pass
+
+class MOTIONMACHINE:
+    def master():
+        def events():
+            goHome
+            stairsUp 
+            stairsStop 
+            openDoor
+            closeDoor
+            goUp 
+            goUpWithBall
